@@ -22,11 +22,11 @@
 
 #---------- Path and Histogram Information ----------
 #Sets the histogram to be used for the time calibration
-his="his/test00.his"
+his="/home/steve/Desktop/local_scan/pixie_scan/New-Timecal-Test2.his"
 #Sets the path for the results
-resultDir="res/is599/is599_52k_00"
+resultDir="/home/steve/Desktop/timeCal/results"
 #Sets the path for the physical offsets of the bars
-physOffsetDir="phys/is600"
+physOffsetDir="phys/anl"
 
 #---------- Fitting Configuration ---------
 #Sets the minimum statistics required for fitting the spectra
@@ -34,11 +34,11 @@ minStats=100
 
 #---------- Start Information -----------
 #The number of start detectors that are in the analysis
-numStarts=1
+numStarts=4
 
 #---------- Small Bar Information -----------
 #The number of small VANDLE bars that are in the analysis
-numSmallBars=12
+numSmallBars=14
 #The file containing the small offsets 
 smallOffsets="small.dat"
 
